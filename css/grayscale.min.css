@@ -42,3 +42,38 @@
 	position: relative;
 	left: 150px;
 }
+
+.contact-top{
+    padding-top: 150px;
+}
+
+#contact-label{
+    text-align: left;
+    float: left;
+}
+
+.contact-section{
+    float: center;
+}
+
+.email-phone{
+    font-size: 20px;
+}
+
+.website-links{
+    padding-top: 50px;
+}
+
+#key-words{
+    color: green;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+body{
+    font-family: helvetica;
+}
