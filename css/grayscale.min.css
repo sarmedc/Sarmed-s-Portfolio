@@ -77,3 +77,8 @@
 body{
     font-family: helvetica;
 }
+
+#project-image{
+    height: 40%;
+    width: auto;
+}
