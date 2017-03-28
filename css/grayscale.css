@@ -231,21 +231,12 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
-#map {
-  width: 100%;
-  height: 200px;
-  margin-top: 100px;
-}
 @media (min-width: 767px) {
   .content-section {
     padding-top: 250px;
   }
   .download-section {
     padding: 100px 0;
-  }
-  #map {
-    height: 400px;
-    margin-top: 250px;
   }
 }
 .btn {
@@ -312,3 +303,85 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
+
+.name {
+    font-size: 400%
+ }
+
+ .profile-pic{
+  text-align: left;
+  float: left;
+  padding-bottom: 50px;
+ }
+
+ .resume-header{
+  text-align: left;
+  float: bottom;
+ }
+
+ .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+    float:right;
+}
+
+.about {
+  position: relative;
+  left: 150px;
+}
+
+.contact-top{
+    padding-top: 150px;
+}
+
+#contact-label{
+    text-align: left;
+    float: left;
+}
+
+.contact-section{
+    float: center;
+}
+
+.email-phone{
+    font-size: 20px;
+}
+
+.website-links{
+    padding-top: 50px;
+}
+
+#key-words{
+    color: green;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+body{
+    font-family: helvetica;
+}
+
+#project-image{
+}
+
+.about-me-descrip{
+    font-size: 40px;
+}
+

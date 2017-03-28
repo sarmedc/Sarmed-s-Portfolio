@@ -1,0 +1,50 @@
+body{
+	
+}
+
+.thumbnail{
+	height: 520px;
+}
+
+.thumbnail  div{
+	height: 200px;
+	max-width: 100%;
+}
+
+#projectPic1{	
+	background-image: url("../img/SolidLogo.png");
+	background-size: contain;
+	background-position: center;
+	margin: auto;
+	display: block;
+}
+
+#projectPic2{	
+	background-image: url("../img/bartr.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	display: block;
+}
+
+#projectPic3{		
+	background-image: url("../img/clean.png");
+	background-size: contain;	
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	display: block;
+}
+
+.caption{
+	background-size: contain;
+}
+
+.aboutme p{
+	font-size: 23px;	
+}
+
+#resume{
+	max-width: 100%;
+}
